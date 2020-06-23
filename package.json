@@ -1,0 +1,82 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "```\r npm install\r ```",
+  "author": "",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "storybook": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
+  },
+  "main": "babel.config.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "axios": "^0.19.2",
+    "bulma": "^0.8.0",
+    "core-js": "^3.6.4",
+    "leaflet": "^1.6.0",
+    "leaflet-fullscreen": "^1.0.2",
+    "v-jsoneditor": "^1.2.3",
+    "vue": "^2.6.11",
+    "vue2-leaflet": "^2.5.2",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@storybook/addon-actions": ">=5.3.0",
+    "@storybook/addon-knobs": ">=5.3.0",
+    "@storybook/addon-links": ">=5.3.0",
+    "@storybook/addon-notes": ">=5.3.0",
+    "@storybook/vue": "^5.3.17",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "axios-mock-adapter": "^1.17.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^1.19.1",
+    "vue-cli-plugin-storybook": "~1.2.2",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/Durdona/Vue.JS-Component/issues"
+  },
+  "homepage": "https://github.com/Durdona/Vue.JS-Component#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Durdona/Vue.JS-Component.git"
+  }
+}
